@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bevan Regular'), local('Bevan-Regular'),
+  url(https://fonts.gstatic.com/s/bevan/v9/4iCj6KZ0a9NXjG8dWCvZtUSI.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'),
+  url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-qNiXg7Q.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+  url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+  url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding-top: 4rem;
+}
+
+h1 {
+  font-family: "Lato", "Ariel", sans-serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+h2 {
+  font-family: "Bevan", "Ariel Black", serif;
+  font-size: 3rem;
+  color: #cccccc;
+}
+
+h2:hover {
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Lato", "Ariel", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+h4 {
+  font-family: "Lato", "Ariel", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+hr {
+  width: 95%;
+}
+
+a {
+  font-family: "Lato", "Ariel", sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+p {
+
+}
+
+section {
+  padding: 2rem 1.5rem;
+}
+
+footer {
+  padding: 2.5rem;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+.navbar a {
+  font-size: 2.75rem;
+}
+
+.jumbotron {
+  background-image: url("../images/northern_lights_sm.jpg");
+  background-size: cover;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2 {
+  padding: 50% 0;
+}
+
+.categories p {
+  padding-top: 1rem;
+}
+
+/* cards */
+.col-md-4 {
+  padding-top: 1.5rem;
+}
+
+/* about */
+.about-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info img {
+  width: 30%;
+  height: 30%;
+}
+
+.about-info p {
+  padding: 1.5rem;
+}
+
+.pdf-buttons {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
