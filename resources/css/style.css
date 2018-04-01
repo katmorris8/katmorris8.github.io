@@ -148,10 +148,11 @@ a:hover {
 .about-info img {
   width: 30%;
   height: 30%;
+  padding-left: 1rem;
 }
 
 .about-description {
-  padding: 1.5rem;
+  padding: .5rem;
 }
 
 .pdf-buttons {
