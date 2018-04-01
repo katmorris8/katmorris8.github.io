@@ -149,10 +149,10 @@ a:hover {
   width: 30%;
   height: 30%;
 }
-/*
+
 .about-description {
-  padding: 1.5rem;
-}*/
+  padding: 0, 1.5rem;
+}
 
 .pdf-buttons {
   padding: 1.5rem;
@@ -163,4 +163,14 @@ a:hover {
 .contact {
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 575px) {
+  .about-info {
+    display: block;
+  }
+
+  .about-description {
+    padding: 1.5rem, 0;
+  }
 }
