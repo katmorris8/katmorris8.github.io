@@ -97,7 +97,8 @@ a {
 }
 
 p {
-
+  font-family: "Lato", "Ariel", sans-serif;
+  font-weight: 400;
 }
 
 section {
