@@ -59,7 +59,7 @@ h1 {
   font-weight: 100;
   font-size: 2.5rem;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0rem;
 }
 
 h2 {
@@ -119,8 +119,9 @@ a:hover {
 
 .jumbotron {
   background-color: #ffffff;
-  margin: 0;
-  padding-bottom: 0;
+  margin: 0rem;
+  padding: 0rem, 1rem;
+  height: auto;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,7 +132,7 @@ a:hover {
 
 /* about */
 .about h3 {
-  padding-top: 0;
+  padding-top: 0rem;
 }
 
 .about-info {
