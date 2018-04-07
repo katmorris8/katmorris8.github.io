@@ -120,10 +120,10 @@ a:hover {
 .jumbotron {
   background-color: #ffffff;
   margin: 0rem;
-  padding: 0rem, 1rem;
+  padding: 0rem, 2rem;
   height: auto;
   background-image: url("../images/northern_lights_jumbotron.jpg");
-  background-size: cover;
+  background-size: auto, 100%;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -131,7 +131,7 @@ a:hover {
 }
 
 /* about */
-.about h3 {
+.about-container {
   padding-top: 0rem;
 }
 
