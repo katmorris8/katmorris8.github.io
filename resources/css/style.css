@@ -122,12 +122,8 @@ a:hover {
   margin: 0;
   padding-bottom: 0;
   background-image: url("../images/northern_lights_jumbotron.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.jumbotron-container {
   display: flex;
   justify-content: center;
   align-items: center;
