@@ -119,7 +119,7 @@ a:hover {
 
 .jumbotron {
   background-color: #ffffff;
-  height: auto;
+  max-height: 75rem;
   margin: 0;
   padding-bottom: 0;
 }
