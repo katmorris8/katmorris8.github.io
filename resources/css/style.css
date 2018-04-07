@@ -119,13 +119,13 @@ a:hover {
 
 .jumbotron {
   background-color: #ffffff;
-  max-height: 75rem;
+  max-height: 75%;
   margin: 0;
   padding-bottom: 0;
 }
 
 .jumbotron-container {
-  background-image: url("../images/northern_lights_sm.jpg");
+  background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
