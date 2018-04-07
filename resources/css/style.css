@@ -118,16 +118,20 @@ a:hover {
 }
 
 .jumbotron {
+  background-color: #ffffff;
   min-height: 12rem;
-  background-image: url("../images/northern_lights_sm.jpg");
-  background-size: cover;
-  overflow: visible;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.jumbotron h2 {
+.jumbotron-container {
+  background-image: url("../images/northern_lights_sm.jpg");
+  background-size: cover;
+  overflow: visible;
+}
+
+.jumbotron-container h2 {
   padding: 50% 0;
 }
 
