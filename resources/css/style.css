@@ -129,9 +129,9 @@ a:hover {
   align-items: center;
 }
 
-/*.jumbotron-container h2 {
+.jumbotron-container h2 {
   padding: 50% 0;
-}*/
+}
 
 .categories p {
   padding-top: 1rem;
