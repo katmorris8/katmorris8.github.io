@@ -127,7 +127,7 @@ a:hover {
 
 .jumbotron-container {
   background-image: url("../images/northern_lights_sm.jpg");
-  background-size: cover;
+  background-size: contain;
   overflow: visible;
 }
 
