@@ -119,7 +119,6 @@ a:hover {
 
 .jumbotron {
   background-color: #ffffff;
-  height: auto;
   margin: 0;
   padding-bottom: 0;
   background-image: url("../images/northern_lights_jumbotron.jpg");
@@ -131,30 +130,26 @@ a:hover {
   align-items: center;
 }
 
-/*.jumbotron-container {
+.jumbotron-container {
+  height: 50%;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 .jumbotron-container h2 {
   padding: 50% 0;
 }
 
-.categories p {
-  padding-top: 1rem;
-}
-
-/* cards */
-.col-md-4 {
-  padding-top: 1.5rem;
-}
-
 /* about */
+.about h3 {
+  padding-top: 0;
+}
+
 .about-info {
   display: flex;
   justify-content: space-between;
@@ -173,6 +168,16 @@ a:hover {
   justify-content: space-around;
 }
 
+.categories p {
+  padding-top: 1rem;
+}
+
+/* cards */
+.col-md-4 {
+  padding-top: 1.5rem;
+}
+
+/* footer */
 .contact {
   display: flex;
   justify-content: space-around;
