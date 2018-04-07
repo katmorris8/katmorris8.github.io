@@ -118,11 +118,6 @@ a:hover {
 }
 
 .jumbotron {
-  width: auto;
-  height: 100%;
-}
-
-.jumbotron-fluid {
   background-color: #ffffff;
   margin: 0rem;
   padding: 0rem, 2rem;
