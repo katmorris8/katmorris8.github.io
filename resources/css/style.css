@@ -128,19 +128,17 @@ a:hover {
 }
 
 .jumbotron-fluid {
-  /*width: auto;
-  height: 100%;
+  padding: 10rem, 0rem;
   background-color: #ffffff;
   padding: 0rem, 2rem;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
-  background-repeat: no-repeat; still stretched wide, small height */
+  background-repeat: no-repeat; /* still stretched wide, small height */
 }
 
 .jumbotron-container {
-  padding: 10rem, 0rem;
-  background-image: url("../images/northern_lights_jumbotron.jpg") no-repeat center center;
-  background-size: contain;
+  /* background-image: url("../images/northern_lights_jumbotron.jpg") no-repeat center center;
+  background-size: contain; full size, height of h2 */
   display: flex;
   justify-content: center;
   align-items: center;
