@@ -117,7 +117,7 @@ a:hover {
   font-size: 2.75rem;
 }
 
-.jumbotron-fluid {
+.jumbotron /*-fluid*/ {
   width: auto;
   height: 51.8125rem;
   background-color: #ffffff;
