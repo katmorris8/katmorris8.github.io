@@ -118,6 +118,8 @@ a:hover {
 }
 
 .jumbotron {
+  width: 112.5rem;
+  height: 51.8125;
   background-color: #ffffff;
   margin: 0rem;
   padding: 0rem, 2rem;
