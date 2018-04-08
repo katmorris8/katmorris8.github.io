@@ -117,6 +117,19 @@ a:hover {
   font-size: 2.75rem;
 }
 
+.jumbotron {
+  background-image: url("../images/northern_lights_sm.jpg");
+  background-size: cover;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2 {
+  padding: 50% 0;
+}
+/*
 .jumbotron /*-fluid*/ {
   /*width: auto;
   height: 100%;
@@ -126,27 +139,27 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat; full size, small height */
 }
-
+/*
 .jumbotron-fluid {
-  padding: 10rem, 0rem; /* no visible padding, full size img, height of container */
+  padding: 10rem, 0rem; /* no visible padding, full size img, height of container
   background-color: #ffffff;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
-  background-repeat: no-repeat; /* still stretched wide, small height */
+  background-repeat: no-repeat; /* still stretched wide, small height
 }
 
 .jumbotron-container {
   /* background-image: url("../images/northern_lights_jumbotron.jpg") no-repeat center center;
-  background-size: contain; full size, height of h2 */
+  background-size: contain; full size, height of h2
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
+} */
+/*
 .jumbotron-fluid h2 {
   padding: 100%, 100%;
 }
-
+*/
 /* about */
 .about-container h3 {
   padding-top: 0rem;
