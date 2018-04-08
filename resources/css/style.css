@@ -118,16 +118,18 @@ a:hover {
 }
 
 .banner {
-  padding-bottom: 0.25rem,
+  padding-bottom: 0;
 }
 
 .jumbotron {
   width: 100%;
   max-height: 75vh;
-  padding: 10% 0;
+  padding: auto 0;
   margin-bottom: 0rem;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow: visible;
   display: flex;
   justify-content: center;
