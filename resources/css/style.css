@@ -167,7 +167,7 @@ a:hover {
   padding-top: 1.5rem;
 }
 
-.img-thumbnail {
+.card-img-top {
   max-height: 12.13rem;
   overflow: hidden;
 }
