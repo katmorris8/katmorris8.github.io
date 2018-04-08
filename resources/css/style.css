@@ -169,6 +169,7 @@ a:hover {
 
 .card-img-top {
   max-height: 12.13rem;
+  object-fit: cover; 
   overflow: hidden;
 }
 
