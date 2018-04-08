@@ -169,6 +169,7 @@ a:hover {
 
 .img-thumbnail {
   max-height: 12.13rem;
+  overflow: hidden;
 }
 
 /* footer */
