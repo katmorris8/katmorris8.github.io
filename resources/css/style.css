@@ -119,7 +119,7 @@ a:hover {
 
 .jumbotron /*-fluid*/ {
   width: auto;
-  max-height: 51.8125rem;
+  height: auto;
 }
 
 .jumbotron-fluid {
