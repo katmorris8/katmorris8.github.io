@@ -139,7 +139,7 @@ a:hover {
 
 .jumbotron-container {
   width: auto;
-  height: 100%;
+  height: auto;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
   background-repeat: no-repeat;
