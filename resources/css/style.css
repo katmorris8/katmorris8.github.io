@@ -118,8 +118,8 @@ a:hover {
 }
 
 .jumbotron-fluid {
-  max-width: 112.5rem;
-  max-height: 51.8125;
+  width: auto;
+  height: 51.8125;
   background-color: #ffffff;
   margin: 0rem;
   padding: 0rem, 2rem;
