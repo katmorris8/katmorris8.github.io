@@ -138,6 +138,10 @@ a:hover {
   align-items: center;
 }
 
+.jumbotron-fluid h2 {
+  padding: 50%, 50%;
+}
+
 /* about */
 .about-container h3 {
   padding-top: 0rem;
