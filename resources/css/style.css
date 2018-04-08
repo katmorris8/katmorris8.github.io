@@ -118,6 +118,8 @@ a:hover {
 }
 
 .jumbotron {
+  width: auto;
+  height: 100%;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: cover;
   overflow: visible;
@@ -127,7 +129,7 @@ a:hover {
 }
 
 .jumbotron h2 {
-  padding: 50% 0;
+  padding: 50%;
 }
 /*
 .jumbotron /*-fluid*/ {
