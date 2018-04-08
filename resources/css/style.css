@@ -128,9 +128,8 @@ a:hover {
 }
 
 .jumbotron-fluid {
-  padding: 10rem, 0rem;
+  padding: 10rem, 0rem; /* no visible padding, full size img, height of container */
   background-color: #ffffff;
-  padding: 0rem, 2rem;
   background-image: url("../images/northern_lights_jumbotron.jpg");
   background-size: contain;
   background-repeat: no-repeat; /* still stretched wide, small height */
