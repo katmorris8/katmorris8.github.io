@@ -129,7 +129,7 @@ a:hover {
   margin: 0rem;
   padding: 0rem, 2rem;
   background-image: url("../images/northern_lights_jumbotron.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
